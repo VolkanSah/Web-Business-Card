@@ -1,2 +1,2 @@
 # Web Business Card
-![Mama Merkel](profilbild.jpg)
+![Mama Merkel](profilbild.png)
