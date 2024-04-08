@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Web business card</title>  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <style>
+    body {
+      background: #f5f5f5;
+      color: #333;
+    }
+    
+    .card {
+      border: none;
+      background: #fff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+  <div class="card text-center" style="width: 18rem; margin: 60px auto;">
+    <img src="profilbild.jpg" class="card-img-top">
+    <div class="card-body">
+      <h3 class="card-title">Max Mustermann</h3>
+      <p class="card-text">Managing Director</p>
+      <a href="#">
+        <i class="fab fa-linkedin fa-2x"></i>
+      </a>
+      <a href="#">
+        <i class="fab fa-xing fa-2x"></i>
+      </a>
+      <a href="#">
+        <i class="fab fa-twitter fa-2x"></i>
+      </a>
+    </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">
+        <i class="fas fa-map-marker-alt"></i> Musterstraße 123, 12345 Musterstadt
+      </li>
+      <li class="list-group-item">
+        <i class="fas fa-phone"></i> 01234 56789
+      </li>
+      <li class="list-group-item">  
+        <i class="fas fa-envelope"></i> max.mustermann@musterfirma.de
+      </li>
+    </ul>
+    <div class="card-body">
+      <form action="kontakt.php" method="post">
+        <div class="form-group">
+          <input type="text" name="name" class="form-control" placeholder="Your Name">  
+        </div>
+        <div class="form-group">
+          <input type="email" name="email" class="form-control" placeholder="Your E-Mail"> 
+        </div>
+        <div class="form-group">
+          <textarea name="nachricht" rows="4" class="form-control" placeholder="your message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">
+          <i class="fas fa-envelope"></i> send message
+        </button>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
