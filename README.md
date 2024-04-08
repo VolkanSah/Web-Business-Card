@@ -1,5 +1,6 @@
 # Web Business Card
 ![Mama Merkel](profilbild.png)
+Image A.I. generated 😅
 
 This is a simple web business card designed using HTML, with styles provided by Bootstrap and icons from Font Awesome.
 
